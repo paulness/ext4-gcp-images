@@ -20,7 +20,7 @@ gcloud config set project p-atlassian-03-ba3a0b
 
 3. Create an image from the compressed img file.
 
-`gcloud compute images create blank-ext4-200gb --source-uri gs://[YOUR_BUCKET_NAME]/ext4-200gb.tar.gz`
+`gcloud compute images create blank-ext4-200gb --source-uri gs://[YOUR_BUCKET_NAME]/blank-ext4-200gb.tar.gz`
 
 Once you have imported the image to your project it's easy to use it as a base when you create a disk.
 
